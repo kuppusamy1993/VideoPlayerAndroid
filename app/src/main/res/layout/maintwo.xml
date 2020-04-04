@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    >
+    <Button
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="right"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@mipmap/expand"
+        android:id="@+id/lanscape_btn"
+        />
+
+    <VideoView
+
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
